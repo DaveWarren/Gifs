@@ -1,0 +1,13 @@
+﻿@model Gifs.Controllers.SplitGifModel
+
+@{
+    ViewBag.Title = "Split";
+}
+
+<h2>Split</h2>
+
+@for (var i = 0; i < this.Model.Count; i++)
+{
+    var imageSrc = string.Format("../Output/{0}/{1}_{2}.gif", this.Model.Foldername, this.Model.ImageName, i);
+    <img src="@imageSrc" alt="Position @i"/>
+}
