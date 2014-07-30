@@ -7,8 +7,17 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 
+using Gifs.Services;
+
 namespace Gifs
 {
+    using System.Reflection;
+
+    using Ninject;
+    using Ninject.Modules;
+    using Ninject.Mvc;
+    using Ninject.Web.Common;
+
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
@@ -18,6 +27,7 @@ namespace Gifs
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            NinjectContainer.RegisterModules(NinjectModules.Modules);
         }
     }
 }

@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gifs", "Gifs\Gifs.csproj", "{2835FDBA-96BA-4D5C-850D-A909BB12F4E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gifs.Services", "Gifs.Services\Gifs.Services.csproj", "{CFDC8CEC-B947-4A08-BBDF-297006BF8453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2835FDBA-96BA-4D5C-850D-A909BB12F4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2835FDBA-96BA-4D5C-850D-A909BB12F4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2835FDBA-96BA-4D5C-850D-A909BB12F4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDC8CEC-B947-4A08-BBDF-297006BF8453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDC8CEC-B947-4A08-BBDF-297006BF8453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDC8CEC-B947-4A08-BBDF-297006BF8453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDC8CEC-B947-4A08-BBDF-297006BF8453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
